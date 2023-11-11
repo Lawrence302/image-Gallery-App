@@ -1,0 +1,5 @@
+
+
+# files to be ingnored
+uploads/
+node_modules/

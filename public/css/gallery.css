@@ -1,0 +1,9 @@
+* {
+  font-family: sans-serif;
+  padding: none;
+  margin: none;
+}
+
+.container {
+  margin: 2rem 3rem 1rem 3rem;
+}

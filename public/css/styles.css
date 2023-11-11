@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navBar {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.menuSec ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.menuSec ul li {
+  margin-left: 2rem;
+  list-style-type: none;
+}
+
+.menuSec ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#uploadError {
+  color: red;
+}
+
+#uploadSuccess {
+  color: green;
+}
