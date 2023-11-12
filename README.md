@@ -18,7 +18,7 @@ The Image Gallery App is a simple web application built with Express.js, EJS, CS
 
 To run the Image Gallery App locally, follow these steps:
 
-```bash
+##bash
 ## Clone the repository
 git clone https://github.com/Lawrence302/image-Gallery-App.git
 
@@ -29,7 +29,7 @@ git clone https://github.com/Lawrence302/image-Gallery-App.git
 To install the dipendencies, just run npm install
 npm install
 
-##Upload Page
+## Upload Page
 Navigate to the upload page to upload images:
 
 - Click on the "selctImage" button.
@@ -50,11 +50,11 @@ Feel free to contribute to the project. Follow these steps:
 -ake your changes and commit them: git commit -am 'Add new feature'.
 -Push to the branch: git push origin feature/new-feature.
 -Submit a pull request.
-#License
+# License
 This project is licensed under the MIT License.
 
 #Badges
 Build Status
 
-##Acknowledgments
+## Acknowledgments
 Thanks to Lawrence Name for inspiration.
