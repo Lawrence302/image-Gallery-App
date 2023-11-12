@@ -5,16 +5,23 @@
 }
 
 .navBar {
-  border: 1px solid black;
+  background-color: #021147;
+  color: #fff;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 0.5rem;
+  height: 50px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .menuSec ul {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
 }
 
 .menuSec ul li {
@@ -24,7 +31,12 @@
 
 .menuSec ul li a {
   text-decoration: none;
-  color: #333;
+
+  color: #fff;
+}
+
+.menuSec ul li a:hover {
+  color: rgb(71, 228, 14);
 }
 
 #uploadError {
@@ -33,4 +45,86 @@
 
 #uploadSuccess {
   color: green;
+}
+
+/*  */
+
+.imageUploadForm {
+  box-shadow: 0 4px 8px rgba(2, 17, 71, 0.5);
+  width: 300px;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.imagePreviewDiv {
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 8px rgba(142, 165, 246, 0.5);
+  height: 70%;
+  width: 90%;
+  margin: auto;
+
+  background-color: #fff;
+  border-radius: 5px;
+  color: #333;
+}
+
+.disable {
+}
+
+.imagePreviewDiv img {
+  height: 100%;
+  width: 100%;
+}
+
+.controlSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputImageLabel {
+  border: 1px solid blue;
+  padding: 0.5rem;
+  background-color: #021147;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.inputImageLabel:hover {
+  box-shadow: 0 4px 8px rgba(2, 17, 71, 0.5);
+}
+
+#uploadBtn {
+  padding: 0.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ed5ab3;
+  cursor: pointer;
+}
+
+#uploadBtn:hover {
+  box-shadow: 0 4px 8px rgba(2, 17, 71, 0.5);
+}
+
+footer {
+  background-color: #021147;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

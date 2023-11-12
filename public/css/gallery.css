@@ -4,6 +4,27 @@
   margin: none;
 }
 
+h1,
+h3 {
+  text-align: center;
+  color: #021147;
+}
+
 .container {
   margin: 2rem 3rem 1rem 3rem;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.container .image {
+  /* border: 1px solid black; */
+  width: 200px;
+}
+
+.container .image img {
+  width: 100%;
+  border-radius: 5px;
 }

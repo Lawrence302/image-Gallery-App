@@ -3,6 +3,8 @@ const imageInput = document.getElementById('imageInput');
 const imagePreview = document.getElementById('imagePreview');
 const uploadError = document.getElementById('uploadError');
 const uploadSuccess = document.getElementById('uploadSuccess');
+
+// selecting the upload file
 imageInput.addEventListener('change', (e) => {
   // getting the file which was selected
   const image = e.target.files[0];
@@ -26,6 +28,16 @@ imageInput.addEventListener('change', (e) => {
 
 uploadBtn.addEventListener('click', (e) => {
   e.preventDefault();
+
+  if (imageInput.files.length === 0) {
+    alert('please select an image');
+    return;
+  }
+
+  if (!imageInput.files || imagePreview.src === '') {
+    alert('please select an image');
+    return;
+  }
   const image = imageInput.files[0];
   console.log(image);
   // creating a from data
