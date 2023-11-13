@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/imageModal.css" />
     <title>galery</title>
   </head>
   <body>
@@ -19,10 +20,17 @@
       <!-- // displaying the images from the database -->
       <% }else{ %> <% images.forEach((image)=>{ %>
       <div class="image">
-        <img src="uploads/images/<%= image.imageUrl %>" alt="" />
+        <img class="photo" src="uploads/images/<%= image.imageUrl %>" alt="" />
       </div>
       <% }) %> <% } %>
     </div>
+    <div class="modal-container hide">
+      <div class="modal">
+        <img id="image-show" src="" alt="image prview" />
+      </div>
+    </div>
     <%- include('partials/footer.ejs') %>
+
+    <script src="js/modal.js"></script>
   </body>
 </html>

@@ -4,6 +4,10 @@
   margin: none;
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h3 {
   text-align: center;

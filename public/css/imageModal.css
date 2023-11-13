@@ -1,0 +1,47 @@
+.modal-container {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.modal {
+  height: 60%;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.modal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    height: 50%;
+    width: 90%;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 300px) {
+  .modal {
+    height: 200px;
+    width: 90%;
+    background-color: #fff;
+  }
+}

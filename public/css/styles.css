@@ -76,9 +76,6 @@
   color: #333;
 }
 
-.disable {
-}
-
 .imagePreviewDiv img {
   height: 100%;
   width: 100%;
@@ -123,8 +120,15 @@ footer {
   font-weight: bold;
   text-align: center;
   padding: 0.5rem;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-weight: bold;
+    font-size: 1rem;
+  }
 }
