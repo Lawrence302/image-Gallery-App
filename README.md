@@ -3,7 +3,7 @@
 ## Description
 
 The Image Gallery App is a simple web application built with Express.js, EJS, CSS, and MongoDB. It consists of two main pages: the upload page and the gallery page. Users can upload images on the upload page, and all the uploaded images are displayed on the gallery page.
-in this project Node.js version 20.9 and mogodb version 6 were used
+in this project <br> Node.js version 20.9 and <br> mogodb version 6 were used
 
 ## Table of Contents
 
@@ -18,8 +18,8 @@ in this project Node.js version 20.9 and mogodb version 6 were used
 ## Installation
 
 To run the Image Gallery App locally, follow these steps:
-first make sure you have the following installed
-Node.js 
+first make sure you have the following installed <br>
+Node.js <br>
 Mongodb
 
 ##bash
@@ -30,8 +30,8 @@ git clone https://github.com/Lawrence302/image-Gallery-App.git
 
 
 ## Install dependencies
-To install the dipendencies,
-just run npm install
+To install the dipendencies,<br>
+just run npm install<br>
 npm install
 
 ## Upload Page
