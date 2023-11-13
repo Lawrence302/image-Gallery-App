@@ -35,17 +35,17 @@ just run npm install<br>
 npm install
 
 ## Upload Page
-Navigate to the upload page to upload images:
+Navigate to the upload page to upload images:<br>
 
-- Click on the "selctImage" button.
-- Select an image to upload.
+- Click on the "selctImage" button.<br>
+- Select an image to upload.<br>
 - click on the "uploadImage" button.
 
 ## Gallery Page
 Visit the gallery page to view all uploaded images.
 
 ## Features
--Image upload functionality.
+-Image upload functionality.<br>
 -Gallery to display all uploaded images.
 ## Contributing
 Feel free to contribute to the project. Follow these steps:
