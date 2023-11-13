@@ -50,11 +50,11 @@ Visit the gallery page to view all uploaded images.
 ## Contributing
 Feel free to contribute to the project. Follow these steps:
 
-##Fork the project.
--Create a new branch: git checkout -b feature/new-feature.
--ake your changes and commit them: git commit -am 'Add new feature'.
--Push to the branch: git push origin feature/new-feature.
--Submit a pull request.
+##Fork the project.<br>
+-Create a new branch: git checkout -b feature/new-feature.<br>
+-ake your changes and commit them: git commit -am 'Add new feature'.<br>
+-Push to the branch: git push origin feature/new-feature.<br>
+-Submit a pull request.<br>
 # License
 This project is licensed under the MIT License.
 
